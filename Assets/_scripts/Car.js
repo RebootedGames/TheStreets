@@ -25,9 +25,10 @@ function Start () {
 function Update () {
 	rb.centerOfMass = com.transform.localPosition;
 
-	throttle = Input.GetAxis("Throttle");
-	steer    = Input.GetAxis("Steer");
-	brake    = Input.GetAxis("Brake");
+	throttle  = Input.GetAxis("Throttle");
+	steer     = Input.GetAxis("Steer");
+	brake     = Input.GetAxis("Brake");
+	handbrake = Input.GetAxis("Handbrake");
 
 	rlWheel.driveTorque = 1000 * throttle;
 	rrWheel.driveTorque = 1000 * throttle;

@@ -26,7 +26,6 @@ var steerAngle 		  : float;
 private var localRotation		 : Quaternion;
 private var inverseLocalRotation : Quaternion;
 private var groundNormal		 : Vector3;
-private var contactPoint		 : Vector3;
 private var localVelocity		 : Vector3;
 private var wheelVelocity		 : Vector3;
 private var roadForce			 : Vector3;
@@ -47,6 +46,9 @@ private var oldAngle : float;
 private var slipRatio : float;
 private var slipAngle : float;
 private var rotation  : float;
+
+@HideInInspector
+var contactPoint : Vector3;
 
 @Header ("OUTPUTS")
 var driveTorque 			: float;
