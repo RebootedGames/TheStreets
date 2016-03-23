@@ -1,37 +1,57 @@
 fileFormatVersion: 2
-guid: 06367b40e589dc54ba68709d492b87ca
-timeCreated: 1458597418
+guid: b58f5b2b657562f4cab0f16bfefc109d
+timeCreated: 1458686066
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Chassis
-    100002: //RootNode
-    100004: wheelFL
-    100006: wheelFR
-    100008: wheelRL
-    100010: wheelRR
-    400000: Chassis
-    400002: //RootNode
-    400004: wheelFL
-    400006: wheelFR
-    400008: wheelRL
-    400010: wheelRR
-    2300000: Chassis
-    2300002: wheelFL
-    2300004: wheelFR
-    2300006: wheelRL
-    2300008: wheelRR
-    3300000: Chassis
-    3300002: wheelFL
-    3300004: wheelFR
-    3300006: wheelRL
-    3300008: wheelRR
-    4300000: wheelFL
-    4300002: Chassis
-    4300004: wheelFR
-    4300006: wheelRR
-    4300008: wheelRL
+    100000: //RootNode
+    100002: Plane005
+    100004: RimFLModel
+    100006: RimFRModel
+    100008: RimRLModel
+    100010: RimRRModel
+    100012: WheelFLModel
+    100014: WheelFRModel
+    100016: WheelRLModel
+    100018: WheelRRModel
+    400000: //RootNode
+    400002: Plane005
+    400004: RimFLModel
+    400006: RimFRModel
+    400008: RimRLModel
+    400010: RimRRModel
+    400012: WheelFLModel
+    400014: WheelFRModel
+    400016: WheelRLModel
+    400018: WheelRRModel
+    2300000: Plane005
+    2300002: RimFLModel
+    2300004: RimFRModel
+    2300006: RimRLModel
+    2300008: RimRRModel
+    2300010: WheelFLModel
+    2300012: WheelFRModel
+    2300014: WheelRLModel
+    2300016: WheelRRModel
+    3300000: Plane005
+    3300002: RimFLModel
+    3300004: RimFRModel
+    3300006: RimRLModel
+    3300008: RimRRModel
+    3300010: WheelFLModel
+    3300012: WheelFRModel
+    3300014: WheelRLModel
+    3300016: WheelRRModel
+    4300000: Plane005
+    4300002: WheelRRModel
+    4300004: RimRRModel
+    4300006: WheelFRModel
+    4300008: RimFRModel
+    4300010: WheelRLModel
+    4300012: RimRLModel
+    4300014: RimFLModel
+    4300016: WheelFLModel
   materials:
     importMaterials: 1
     materialName: 0
